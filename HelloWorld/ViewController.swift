@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var txtFirstName: UITextField!
+    @IBOutlet weak var txtLastName: UITextField!
+    @IBOutlet weak var txtLabel: UILabel!
+    
+    @IBAction func bntSubmit(sender: UIButton) {
+        txtLabel.text = "Hello, \(txtFirstName) \(txtLastName)";
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +27,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

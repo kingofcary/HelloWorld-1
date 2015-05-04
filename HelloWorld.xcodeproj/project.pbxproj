@@ -36,6 +36,7 @@
 		93BE2E861AF810BB003068F1 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BE2E8B1AF810BB003068F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93BE2E8C1AF810BB003068F1 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		93BE2E991AF81E4E003068F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +241,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				93BE2E7B1AF810BB003068F1 /* Base */,
+				93BE2E991AF81E4E003068F1 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
